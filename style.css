@@ -1,0 +1,115 @@
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+body {
+    background-color: hsl(225, 100%, 94%);
+    /* background:url(./images/pattern-background-desktop.svg); */
+    background-repeat: no-repeat;
+    background: cover;
+    font-size: 16px;
+}
+.container {
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translatex(-50%);
+    font-family: "Red Hat Display";
+    height: 700px;
+    width: 500px;
+    background-color:white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+    -webkit-transform: translatex(-50%);
+    -moz-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    -o-transform: translatex(-50%);
+}
+
+.container picture img {
+    width: 100%;
+    border-radius: 3% 3% 0 0;
+    -webkit-border-radius: 3% 3% 0 0;
+    -moz-border-radius: 3% 3% 0 0;
+    -ms-border-radius: 3% 3% 0 0;
+    -o-border-radius: 3% 3% 0 0;
+}
+.container h1 {
+    font-weight: 900;
+    
+}
+.container p {
+    margin: 0px 70px;
+    color: hsl(224, 23%, 55%) ;
+}
+.plan {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 350px;
+    background-color: hsl(225, 100%, 98%);
+    margin: 30px ;
+    margin-left: 50px ;  
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+    
+
+
+}
+.plan .change{
+    color:hsl(245, 75%, 52%);
+}
+.plan img {
+    height: 50px;
+}
+.annualplan{
+    display: flex;
+    flex-direction: column;
+    margin-left: -100px;
+}
+.change {
+    font-weight: 700;
+    text-decoration: underline;
+}
+.change:hover{
+    color:hsla(245, 75%, 52%, 0.677) ;
+    text-decoration: none;
+}
+.plan .annualplan span:first-child {
+    font-weight: 700;
+}
+.plan .annualplan span:last-child{
+    color: hsl(224, 23%, 55%) ;
+
+}
+
+button {
+    margin: 0px 50px;
+    margin-bottom: 30px;
+    height: 50px;
+    width: 400px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+button:hover{
+    background-color:hsla(245, 75%, 52%, 0.677) ;
+}
+a{
+    font-weight: 700;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+a:hover{
+    color: hsla(245, 75%, 52%, 0.677);
+}
